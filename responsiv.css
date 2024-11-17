@@ -1,0 +1,105 @@
+
+@media (max-width:1274px){
+    .footer-logo{
+flex-basis: 50%;
+    }
+
+}
+@media (max-width:1248px){
+.container1{
+    width: 100%;
+}
+.container2{
+    width: 100%;
+}
+.container3{
+    width: 100%;
+}
+
+}
+@media (max-width:1247px){
+    .container3-content{
+justify-content: space-evenly;
+    }
+    .container3-img1{
+        width: 530px;
+    }
+}
+@media (max-width:1103px){
+    .container3-img1{
+        width: 330px;
+    }
+    .container3-img2{
+        width: 330px;
+    }
+
+}
+@media (max-width:683px){
+    .container3-img1{
+        width: 40%;
+    }
+    .container3-img2{
+        width: 90%;
+    }
+
+}
+
+
+
+@media (max-width:800px){
+    .input-bars{
+        display: block;
+    }
+    .nav{
+        display: none;
+    }
+    .icons{
+        display: none;
+    }
+    #checkbox:checked ~ .nav{
+    display: flex;
+    position: absolute;
+    left: 0;
+    top: 82px;
+    height: calc(100% - 82px);
+    width: 40%;
+    border: 1px solid var(--gray);
+    border-radius: 15px;
+    background-color: white;
+    z-index: 1;
+    animation: anim-burger .8s linear;
+    overflow: hidden;
+    }
+    @keyframes anim-burger {
+        0%{
+           transform: translateX(-100%);
+        }
+        100%{
+            transform: translateX(0);
+        }
+    }
+    .nav-list{
+        flex-direction: column;
+        flex-basis: 100px;
+        height: 100%;
+        justify-content: space-around;
+    }
+}
+@media (max-width:674px){
+    .footer-logo{
+        flex-basis: 80%;
+            }
+
+}
+@media (max-width:539px){
+.container3-img2{
+    width: 100%;
+}
+}
+
+@media (max-width:271px){
+    .container1-img{
+width: 100%;
+
+    }
+}
